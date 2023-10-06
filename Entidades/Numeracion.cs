@@ -61,7 +61,7 @@ namespace Entidades
             }
         }
 
-        protected abstract Numeracion CambiarSistemaDeNumeracion(ESistema sistema);
+        public abstract Numeracion CambiarSistemaDeNumeracion(ESistema sistema);
 
         public static bool operator ==(Numeracion n1, Numeracion n2)
         {
